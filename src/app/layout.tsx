@@ -55,7 +55,7 @@ export default function RootLayout({
           rel="stylesheet"
         />
         {/* Optional: Add your Google Search Console verification code */}
-        <meta name="google-site-verification" content="[YOUR_GOOGLE_VERIFICATION_CODE]" />
+        <meta name="google-adsense-account" content="ca-pub-6276658028541423" />
         
         <Script
           async

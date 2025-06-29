@@ -4,6 +4,9 @@ import './globals.css';
 import { Toaster } from '@/components/ui/toaster';
 import { cn } from '@/lib/utils';
 import { ThemeProvider } from '@/components/theme-provider';
+import {
+  URL
+} from 'url';
 
 export const metadata: Metadata = {
   title: {
@@ -12,8 +15,7 @@ export const metadata: Metadata = {
   },
   description: 'A comprehensive collection of free, easy-to-use online tools including calculators, converters, text utilities, image tools, and more. Boost your productivity with our simple and powerful web toolkit.',
   keywords: ['online tools', 'web tools', 'converter', 'calculator', 'generator', 'free tools', 'developer tools', 'utility'],
-  // IMPORTANT: To enable full SEO benefits, uncomment the line below and replace [YOUR_DOMAIN] with your actual domain.
-  // metadataBase: new URL('https://[YOUR_DOMAIN]'),
+  metadataBase: new URL('https://hdwebtool.vercel.app'),
   alternates: {
     canonical: '/',
   },
@@ -55,10 +57,9 @@ export default function RootLayout({
         {/* Optional: Add your Google Search Console verification code */}
         <meta name="google-site-verification" content="[YOUR_GOOGLE_VERIFICATION_CODE]" />
         
-        {/* IMPORTANT: Replace with your Google AdSense Publisher ID */}
         <Script
           async
-          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-[YOUR_ADSENSE_PUBLISHER_ID]"
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6276658028541423"
           crossOrigin="anonymous"
           strategy="afterInteractive"
         />

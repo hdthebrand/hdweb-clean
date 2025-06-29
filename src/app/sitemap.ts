@@ -2,7 +2,7 @@ import { MetadataRoute } from 'next';
 import { tools } from '@/lib/tools';
 
 // IMPORTANT: Replace with your actual domain
-const URL = 'https://[YOUR_DOMAIN]';
+const URL = 'https://hdwebtool.vercel.app';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const toolRoutes = tools.map((tool) => ({
